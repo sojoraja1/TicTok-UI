@@ -88,7 +88,7 @@ class _HomeState extends State<Home> {
           BottomNavigationBarItem(
             icon: Icon(Icons.home),
             title: Text('')
-          ),``
+          ),
           BottomNavigationBarItem(
             icon: Icon(Icons.search),
               title: Text('')
@@ -136,13 +136,3 @@ class _HomeState extends State<Home> {
   }
 }
 
-class Own extends BottomNavigationBarItem{
-
- Widget circularLogo(){
-
-   return CircleAvatar(child: Icon(Icons.add));
-
-
-  }
-
-}
